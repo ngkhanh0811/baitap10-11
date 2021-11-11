@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/html">
+<head>
+    <meta charset="UTF-8">
+    <title>Yoko's Kitchen</title>
+    <style>
+        body, header, footer, section, aside, article, figcaption{
+            display: block;
+        }
+        body{
+            color: black;
+            background-image: url("imageyokokitchen/dark-wood.jpg");
+            background-position: center;
+            font-family: Arial, Verdana, "Times New Roman";
+            line-height: 1.4em;
+            margin: 0px;
+        }
+        .wrapper{
+            background-color: ghostwhite;
+            width: 940px;
+            margin: 20px auto 20px auto;
+            border: 2px solid #000000;
+        }
+        .head{
+            background-image: url("imageyokokitchen/header.jpg");
+            height: 160px;
+        }
+        h1{
+            text-indent: -9999px;
+            height: 120px;
+            margin: 0px;
+            width: 940px;
+        }
+        nav, footer{
+            clear: both;
+            color: #ffffff;
+            background-color: #aeaca8;
+            height: 30px;
+        }
+        nav li {
+            display: inline;
+            margin-right: 40px;
+            color: #ffffff;
+        }
+        .current{
+            color: brown;
+        }
+        a:hover{
+            color: brown;
+            background-color: #cdcdcd;
+        }
+        .courses{
+            float: left;
+            width: 640px;
+            border-right: 1px solid #eeeeee;
+            border-bottom: 1px solid black;
+        }
+        aside a{
+            display: block;
+            padding: 10px;
+            border-bottom: 1px solid #eeeeee;
+        }
+        figure{
+            border: 1px solid #eeeeee;
+            float: left;
+        }
+        article{
+            clear: both;
+        }
+        .popular{
+            margin-top: 30px;
+        }
+    </style>
+</head>
+<body>
+<div class="wrapper">
+    <div class="head">
+        <h1>Yoko's Kitchen</h1>
+        <nav>
+        <ul>
+        <li><a href="" class="current">Home</a></li>
+        <li><a href="">Classes</a></li>
+        <li><a href="">Catering</a></li>
+        <li><a href="">About</a></li>
+        <li><a href="">Contact</a></li>
+    </ul>
+        </nav>
+</div>
+    <header>
+        <section class="courses">
+<article>
+    <figure>
+    <img src="imageyokokitchen/bok-choi.jpg" alt="Bok Choi"/>
+    <figcaption>Bokchoi</figcaption>
+    </figure>
+    <hgroup>
+    <h2>Japanese Vegetarian</h2>
+    <h3>Five week course in London</h3>
+    <p>A five week introduction to traditional Japanese vegetarian meals, teaching you a selection of rice and noodle dishes.</p>
+    </hgroup>
+</article>
+<article>
+    <figure>
+    <img src="imageyokokitchen/teriyaki.jpg" alt="Teriyaki Sauce"/>
+    <figcaption>Teriyaki</figcaption>
+    </figure>
+    <hgroup>
+    <h2>Sauce Masterclass</h2>
+    <h3>One day workshop</h3>
+    <p>An intensive one-day course looking at how to create the most delicous sauces for use in a range of Japanese cookery.</p>
+    </hgroup>
+</article>
+        </section>
+    </header>
+    <aside>
+        <section class="popular">
+            <h2>Popular Recipes</h2>
+            <a href="">Yakitori (grilled chicken) </a>
+            <a href="">Tsukune</a>
+            <a href="">Okonomiyaki</a>
+            <a href="">Mizutaki</a>
+        </section>
+        <section class="contact">
+            <h2>Contact</h2>
+            <p>Yoko's Kitchen 27 Redchurch Street Shoreditch London E2 7DP</p>
+        </section>
+    </aside>
+    <footer>
+        2011 Yoko's Kitchen
+    </footer>
+</div>
+</body>
+</html>
